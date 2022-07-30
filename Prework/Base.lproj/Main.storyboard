@@ -20,7 +20,7 @@
                                 <rect key="frame" x="105" y="205" width="204" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World!" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csb-6A-xAE">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="csb-6A-xAE">
                                         <rect key="frame" x="18" y="10" width="168" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -30,40 +30,40 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayr-Pj-pSz">
-                                <rect key="frame" x="138" y="529" width="139" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QyO-nk-nMO">
+                                <rect key="frame" x="119" y="361" width="176" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Change text color">
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Change Text" titleAlignment="automatic">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="ButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pFq-q8-L0x"/>
+                                    <action selector="ButtonClicked3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gzq-cV-M1y"/>
+                                    <action selector="ButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o5z-vA-qeV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taU-MC-UNg">
-                                <rect key="frame" x="112" y="586" width="191" height="31"/>
+                                <rect key="frame" x="95" y="433" width="224" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="separatorColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Change background color">
+                                <buttonConfiguration key="configuration" style="plain" title="Change background color" titleAlignment="automatic">
                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="ButtonClicked2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fkc-C7-oHe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QyO-nk-nMO">
-                                <rect key="frame" x="155" y="305" width="105" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayr-Pj-pSz">
+                                <rect key="frame" x="112" y="317" width="191" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Change Text">
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Change text color" titleAlignment="automatic">
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="ButtonClicked3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gzq-cV-M1y"/>
-                                    <action selector="ButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o5z-vA-qeV"/>
+                                    <action selector="ButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pFq-q8-L0x"/>
                                 </connections>
                             </button>
                         </subviews>
